@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Lato';
+  background: rgb(121, 121, 121);
+  color: white;
+  transition: 1s all  ease-in-out;
+}
+
+body.dark-mode {
+background-color: #232323;
+color: #e5e8e8;
+}
+
+
+.toggle-mode-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#modeToggle {
+  padding: 20px;
+  margin: 20px auto;
+  font-size: 35px;
+  color: white;
+  border-radius: 50%;
+  border: 1px solid greenyellow;
+  transition: 0.6s all ease-in-out;
+}
+#modeToggle:hover {
+  box-shadow: 1px 1px 10px yellowgreen;
+}
+main {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+#info-container {
+  border: 2px solid yellow;
+  border-radius: 20px;
+  min-width: 360px;
+  max-width: 414px;
+  min-height: 300px;
+  padding: 20px 30px 10px 30px;
+ 
+}
+.hover-box {
+  background-image: url('../bg2.jpg');
+  background-position: center;
+  background-size: cover;
+  transition: all ease-in-out 0.8s;
+  color: black;
+  font-weight: 700;
+}
+#info-container.dark-mode {
+  background-image: url('../bg1.jpg');
+  color: white;
+}
+
+.hover-box:hover {
+  box-shadow: 1px 1px 25px 0px rgb(255, 255, 50); 
+}
+
+.light-saber {
+  width: 300px;
+  margin: 0 auto 0 auto;
+   display: flex;
+  align-items: center;
+  
+  transition: box-shadow ease-in .5s;
+
+}
+
+.light-saber:hover {
+  
+  /* justify-content: space-between; */
+}
+
+i {
+  transition: all ease-in-out 2.8s;
+  opacity: 0.2;
+  
+}
+.light-saber:hover i {
+  color:  rgba(239, 252, 160, 0.8);
+  width: 25%;
+  opacity: 0.8;
+  box-shadow: 150px 0 25px 2px rgb(75, 255, 150); 
+  
+}
+
+.btn {
+  background-color: rgb(63, 63, 63);
+  color: yellow;
+  text-transform: uppercase;
+  padding: 10px 22px;
+  border-radius: 20px 0 0 20px;
+  border-color: yellow;
+  transition: all ease-in-out 0.8s;
+  min-width: 150px;
+}
+.btn.dark-mode {
+  background-color: #000000;
+}
+
+.ball {
+  border-radius: 50%;
+  margin-left: 5px;
+  transition: all ease-out 1.8s;
+
+}
+.btn:hover {
+  transition: all ease-in-out 1.2s;
+  width: 100px;
+  padding: 10px 35px 10px 25px;
+  box-shadow: 150px 0 25px 2px rgb(75, 255, 150); 
+  border-right: 10px solid rgb(75, 255, 150);
+}
+
+
+.center {
+   align-self: center;
+   text-align: center;
+   color: yellow;
+   width: 80%;
+   margin-left: 10%;
+}
+
+footer {
+  width: 100vw;
+  height: 50vh;
+  background: rgb(55, 55, 55);
+  padding: 20px 0;
+  margin: 0 auto 0 auto;
+  transition: 1s all  ease-in-out;
+}
+footer.dark-mode {
+background-color: #000000;
+color: #e5e8e8;
+}
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  
+}
+.links a {
+  text-decoration: none;
+  color: yellow;
+  border-radius: 50%;
+  padding: 10px;
+  border: 1px solid rgb(70, 70, 70) ;
+  transition: all ease-in-out .9s;
+  
+}
+
+.links a:hover {
+  border: 1px solid yellow;
+  box-shadow: 
+      1px 1px 25px 0px rgb(255, 255, 50); 
+}
+footer h4 {
+  padding: 20px;
+  color: yellow;
+  text-align: center;
+
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrer policy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="icon" href="/favicon.ico">
+    <title>Star Wars Random Character</title>
+</head>
+
+
+<body>
+    <div class="toggle-mode-container">
+        <button id="modeToggle" title="Toggle Dark/Light mode">
+            <!-- <i class="fa-solid fa-moon"></i> -->
+        </button>
+        <span id='mode-title'>Dark Mode</span>
+    </div>
+    <main>
+        <div id="info-container" class="hover-box" >            
+                        
+            <img style="
+                width: 80%;
+                margin-left: 10%;
+                border-radius: 20px;
+                opacity: 0.5;"
+                src="/giphy.gif"
+                alt="Star Wars Logo animated gif">
+
+                <h1 style="text-align: center; margin: 0;">
+                    Random Characters
+                </h1>
+            <div>                
+                <p id="name">Character name</p>
+                <p id="height">Height:</p>
+                <p id="mass">Mass:</p>
+                <p id="birth_year">Birth year:</p>
+                <p id="gender">Gender:</p>
+                <p id="hair_color">Hair Color:</p>
+                <p id="skin_color">Skin Color:</p>
+                <p id="eye_color">Eye Color:</p>
+                <p id="homeworld">Homeworld:</p>
+                <img src="" alt="">                
+            </div>
+
+            <div class="light-saber">
+
+                <button type="button" class="btn" id="button">
+                    Next
+                </button>
+
+                <a href="https://github.com/malanski/sintaxe-e-operadores"
+                    title="GitHub Repository">
+
+                    <i class="ball fab fa-github fa-2x"></i>
+                </a>
+            </div>
+        </div>       
+    
+    
+    </main>
+
+    <footer>
+        <div class="links">
+            <a target="_blank" href="https://github.com/malanski" title="Malanski's github">
+                <i class="fab fa-github fa-2x"></i>
+            </a>
+            <a target="_blank" href="https://www.linkedin.com/in/ulisses-malanski" title="Ulisses Malanski linkedin">
+                <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+        </div>
+        <h4>Developed by Ulisses Malanski</h4>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.15.3/axios.min.js"></script>
+
+    <script src="/app.js" charset="utf-8"></script>
+
+    <!-- <script src="/js/script.js"></script> -->
+
+</body>
+
+</html>
