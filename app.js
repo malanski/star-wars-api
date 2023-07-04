@@ -102,7 +102,7 @@ function updateInfoError() {
 
 function updateInfoLoading() {
   name.innerHTML       = 'We are searching for, it please wait...' 
-  height.innerHTML     = '<img src="/assets/leia.gif" style="width: 100%; heigth: 80%;">'
+  height.innerHTML     = '<img class="leiaLoading", margin:auto" src="/assets/leia.gif" style="width: 100%; heigth: 80%;">'
   mass.innerText       = ''
   birth_year.innerHTML = ''
   gender.innerText     = ''

@@ -14,7 +14,7 @@ body {
 }
 
 body.dark-mode {
-  background-color: #232323;
+  background-color: #141414;
   color: #e5e8e8;
 }
 
@@ -173,4 +173,9 @@ footer h4 {
   color: yellow;
   text-align: center;
 
+}
+
+.leiaLoading {
+  height: 260px;
+  width: 90%;
 }
