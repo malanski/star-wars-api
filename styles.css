@@ -39,6 +39,10 @@ body.dark-mode {
   box-shadow: 1px 1px 10px yellowgreen;
 }
 
+.my-moon {
+  color: black;
+}
+
 main {
   padding: 20px 0;
   display: flex;

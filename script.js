@@ -19,8 +19,8 @@ function changeClasses() {
 function changeText() {
   const lightText = 'Light Mode'
   const darkText  = 'Dark Mode'
-  const lightIcon = `<i style='color:yellow' class="fa-solid fa-sun"></i>`
-  const darkIcon  = `<i class="fa-solid fa-moon"></i>`
+  const lightIcon = `<i class="fa-solid fa-sun my-moon"></i>`
+  const darkIcon  = `<i class="fa-solid fa-moon my-moon"></i>`
   if (body.classList.contains(darkModeClass)) {
       modeTitle.innerHTML = lightText
       modeBtn.innerHTML = lightIcon
