@@ -57,7 +57,7 @@ main {
 }
 
 .hover-box {
-  background-image: url('../bg2.jpg');
+  background-image: url('../assets/bg2.jpg');
   background-position: center;
   background-size: cover;
   transition: all ease-in-out 0.8s;
@@ -66,7 +66,7 @@ main {
 }
 
 #info-container.dark-mode {
-  background-image: url('../bg1.jpg');
+  background-image: url('../assets/bg1.jpg');
   color: white;
 }
 

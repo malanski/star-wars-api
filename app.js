@@ -91,7 +91,7 @@ function updateInfo(data) {
 function updateInfoError() {
   name.innerText       = 'Oh no there is no data about this person.' 
   height.innerText     = ''
-  mass.innerHTML       = '<img src="/no-data.jpeg" style="width:100%;">'
+  mass.innerHTML       = '<img src="/assets/no-data.jpeg" style="width:100%;">'
   birth_year.innerText = ''
   gender.innerText     = 'Try again!'
   hair_color.innerText = ''
@@ -102,7 +102,7 @@ function updateInfoError() {
 
 function updateInfoLoading() {
   name.innerHTML       = 'We are searching for, it please wait...' 
-  height.innerHTML     = '<img src="/leia.gif" style="width: 100%; heigth: 80%;">'
+  height.innerHTML     = '<img src="/assets/leia.gif" style="width: 100%; heigth: 80%;">'
   mass.innerText       = ''
   birth_year.innerHTML = ''
   gender.innerText     = ''
